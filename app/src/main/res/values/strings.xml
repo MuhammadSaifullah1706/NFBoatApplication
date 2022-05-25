@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NFBoat</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="d_j_un_compte">Déjà un compte ?</string>
+    <string name="address_email">Addresse email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+</resources>
