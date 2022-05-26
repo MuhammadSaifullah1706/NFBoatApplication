@@ -8,4 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="app_colour">#0099C2</color>
+    <color name="dark">#485068</color>
+    <color name="backgroud_simple">#EDF1F9</color>
+    <color name="hint_colour">#B5BBC9</color>
+    <color name="top_head">#0D1F3C</color>
+    <color name="medium_head">#485068</color>
+    <color name="pin_background">#EDF1F9</color>
 </resources>

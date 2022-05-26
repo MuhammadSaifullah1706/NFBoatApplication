@@ -5,4 +5,11 @@
     <string name="d_j_un_compte">Déjà un compte ?</string>
     <string name="address_email">Addresse email</string>
     <string name="mot_de_passe">Mot de passe</string>
+    <string name="pas_encore_de_compte">Pas encore de compte ?</string>
+    <string name="nous_rejoindre">Nous rejoindre</string>
+    <string name="mot_de_passe_oubli">Mot de passe oublié ?</string>
+    <string name="consultez_vos_mails">Consultez vos mails</string>
+    <string name="nous_venons_de_vous_envoyer_les_consignes_de_r_initialisation_par_email">Nous venons de vous envoyer les consignes de réinitialisation par email</string>
+    <string name="entrez_votre_code_pour_continuer">Entrez votre code pour continuer</string>
+    <string name="v_rification_requise">Vérification requise</string>
 </resources>

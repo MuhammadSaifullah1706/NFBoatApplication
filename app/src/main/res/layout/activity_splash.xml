@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_colour"
-    tools:context=".activities.SplashScreenActivity">
+    tools:context=".activity.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,6 +25,7 @@
         android:backgroundTint="@color/white"
         android:text="@string/cr_er_un_compte"
         android:textColor="@color/app_colour"
+        android:fontFamily="@font/font_regular"
         android:textSize="@dimen/small_textsize"
         app:cornerRadius="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,6 +42,7 @@
         android:text="@string/d_j_un_compte"
         android:textColor="@color/white"
         android:textSize="@dimen/small_textsize"
+        android:fontFamily="@font/font_regular"
         app:layout_constraintEnd_toEndOf="@+id/materialButton"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="@+id/materialButton"
@@ -53,6 +55,7 @@
         android:layout_marginStart="@dimen/_6sdp"
         android:text="@string/se_connecter"
         android:textColor="@color/white"
+        android:fontFamily="@font/font_regular"
         android:textSize="@dimen/small_textsize"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintStart_toEndOf="@+id/textView"
