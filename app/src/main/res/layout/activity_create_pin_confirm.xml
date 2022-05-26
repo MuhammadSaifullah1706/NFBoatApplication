@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.PinScreenActivity"
+    tools:context=".activity.CreatePinConfirmActivity"
     android:background="@color/pin_background"
     >
     <ImageView
@@ -25,7 +25,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/font_bold"
         android:gravity="center"
-        android:text="@string/v_rification_requise"
+        android:text="@string/confirmez_le_code"
         android:textColor="@color/top_head"
         android:textSize="@dimen/_20sdp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,12 +35,12 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="@dimen/_270sdp"
+        android:layout_width="@dimen/_260sdp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/font_regular"
         android:gravity="center"
-        android:text="@string/entrez_votre_code_pour_continuer"
+        android:text="@string/r_p_tez_le_code_pour_continuer"
         android:textColor="@color/medium_head"
         android:textSize="@dimen/_13sdp"
         app:layout_constraintEnd_toEndOf="@+id/textView4"

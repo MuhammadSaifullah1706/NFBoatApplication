@@ -25,7 +25,8 @@
             app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/backicon_black" />
+            app:srcCompat="@drawable/backicon_black"
+            android:contentDescription="@string/ok" />
 
         <TextView
             android:id="@+id/textView4"
@@ -61,8 +62,8 @@
             android:layout_width="@dimen/_170sdp"
             android:layout_height="@dimen/_45sdp"
             android:backgroundTint="@color/app_colour"
-            android:fontFamily="@font/font_regular"
-            android:text="Réinitialiser"
+            android:fontFamily="@font/font_semibold"
+            android:text="@string/r_initialiser"
             android:layout_marginBottom="@dimen/_40sdp"
             android:textColor="@color/white"
             android:textSize="@dimen/small_textsize"

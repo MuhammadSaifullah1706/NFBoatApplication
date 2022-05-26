@@ -12,4 +12,23 @@
     <string name="nous_venons_de_vous_envoyer_les_consignes_de_r_initialisation_par_email">Nous venons de vous envoyer les consignes de réinitialisation par email</string>
     <string name="entrez_votre_code_pour_continuer">Entrez votre code pour continuer</string>
     <string name="v_rification_requise">Vérification requise</string>
+    <string name="votre_nouveau_mot_de_passe_doit_tre_diff_rent_de_l_ancien">Votre nouveau mot de passe doit être différent de l’ancien</string>
+    <string name="r_p_ter_le_mot_de_passe">Répéter le mot de passe</string>
+    <string name="cr_ation_de_compte">Création de compte</string>
+    <string name="prot_gez_l_acc_s_votre_coffre_fort_en_configurant_un_code_a_4_chiffres">Protégez l’accès à votre coffre fort en configurant un code a 4 chiffres</string>
+    <string name="confirmez_le_code">Confirmez le code</string>
+    <string name="r_p_tez_le_code_pour_continuer">Répétez le code pour continuer</string>
+    <string name="ok">OK</string>
+    <string name="r_initialiser">Réinitialiser</string>
+    <string name="entrez_votre_addresse_email_pour_recevoir_un_lien_de_r_initialisation_de_mot_de_passe">Entrez votre addresse email pour recevoir un lien de réinitialisation de mot de passe</string>
+    <string name="addresse_email">Addresse email</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="nouveau_mot_de_passe">Nouveau mot de passe</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="mattie">Mattie</string>
+    <string name="nom">Nom</string>
+    <string name="hardwick">Hardwick</string>
+    <string name="password">Password</string>
+    <string name="cr_er_un_compt">Créer un compt</string>
 </resources>
