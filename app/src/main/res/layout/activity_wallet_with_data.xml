@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pin_background"
+    tools:context=".activity.WalletWithDataActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchHomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/homeround_background"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:contentDescription="@string/ok"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/search" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_semibold"
+            android:gravity="center"
+            android:hint="@string/rechercher_un_bateau_ou_un_document"
+            android:textSize="@dimen/medium_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchHomeScreen"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textVie7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/font_semibold"
+                android:gravity="center"
+                android:text="@string/_0_00"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_sizetext"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/textVie7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toEndOf="@+id/textVie7"
+                app:layout_constraintTop_toTopOf="@+id/textVie7"
+                app:srcCompat="@drawable/close_eye"
+                android:contentDescription="@string/ok" />
+
+            <TextView
+                android:id="@+id/textViw6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/font_regular"
+                android:gravity="center"
+                android:text="@string/fonds_disponibles"
+                android:textColor="@color/dull_black"
+                android:textSize="@dimen/small_textsize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textVie7" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_20sdp"
+                android:background="@drawable/app_background_round"
+                android:fontFamily="@font/font_semibold"
+                android:gravity="center"
+                android:text="@string/transf_rer_vers_un_compte_bancaire"
+                android:textColor="@color/white"
+                android:textSize="@dimen/medium_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViw6" />
+
+            <TextView
+                android:id="@+id/tetViw6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/font_regular"
+                android:gravity="center"
+                android:text="@string/historique"
+                android:textColor="@color/dull_black"
+                android:textSize="@dimen/small_textsize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView" />
+
+
+            <TextView
+                android:id="@+id/ttViw6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/font_regular"
+                android:text="@string/mes_bateaux"
+                android:textColor="@color/dull_black"
+                android:textSize="@dimen/small_textsize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tetViw6" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_185sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ttViw6" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/appCompatImageView"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/app_backgroundcolor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recyclerView"
+                app:layout_constraintVertical_bias="0.100000024">
+
+
+                <ImageView
+                    android:id="@+id/imageView54"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:contentDescription="@string/ok"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.3"
+                    app:srcCompat="@drawable/ship" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:fontFamily="@font/font_semibold"
+                    android:gravity="center"
+                    android:text="@string/ajouter_un_bateau"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView54"
+                    app:layout_constraintStart_toStartOf="@+id/imageView54"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView54" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/appCompatImageVie2"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/app_backgroundcolor"
+                app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView"
+                app:layout_constraintStart_toEndOf="@+id/appCompatImageView"
+                app:layout_constraintTop_toTopOf="@+id/appCompatImageView">
+
+
+                <ImageView
+                    android:id="@+id/imageVie4"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.3"
+                    app:srcCompat="@drawable/document"
+                    android:contentDescription="@string/ok" />
+
+                <TextView
+                    android:id="@+id/textiew9"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:fontFamily="@font/font_semibold"
+                    android:gravity="center"
+                    android:text="@string/ajouter_un_document"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageVie4"
+                    app:layout_constraintStart_toStartOf="@+id/imageVie4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageVie4" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/appCompatImageVie3"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/app_backgroundcolor"
+                app:layout_constraintBottom_toBottomOf="@+id/appCompatImageVie2"
+                app:layout_constraintStart_toEndOf="@+id/appCompatImageVie2"
+                app:layout_constraintTop_toTopOf="@+id/appCompatImageVie2">
+
+
+                <ImageView
+                    android:id="@+id/imageVie41"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.3"
+                    app:srcCompat="@drawable/man"
+                    android:contentDescription="@string/ok" />
+
+                <TextView
+                    android:id="@+id/textew9"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_32sdp"
+                    android:fontFamily="@font/font_semibold"
+                    android:gravity="center"
+                    android:text="@string/contr_le_en_mer"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imageVie41"
+                    app:layout_constraintStart_toStartOf="@+id/imageVie41"
+                    app:layout_constraintTop_toBottomOf="@+id/imageVie41" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

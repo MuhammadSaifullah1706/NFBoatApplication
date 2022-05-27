@@ -1,80 +1,141 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.SignUpActivity">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/pin_background"
+    tools:context=".activity.ConfirmTransferActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/backgroundImage"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/bg2_image"
+        android:layout_width="411dp"
+        android:layout_height="@dimen/_110sdp"
+        android:background="@color/pin_background"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.4"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_constraintHeight_percent="0.4"
-            android:background="@drawable/background_image"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:fontFamily="@font/font_bold"
+            android:fontFamily="@font/font_semibold"
             android:gravity="center"
-            android:text="@string/cr_ation_de_compte"
-            android:textColor="@color/white"
+            android:text="@string/transf_rer_mes_fonds"
+            android:textColor="@color/black"
             android:textSize="@dimen/_20sdp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="26dp"
+            android:contentDescription="@string/ok"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/backicon_black" />
 
-
-
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/font_regular"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.0"
+            android:text="@string/confirmez_votre_transaction"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_textsize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ScrollView
         android:id="@+id/scrollLogin"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.7"
+        android:layout_marginTop="8dp"
         android:background="@drawable/simple_white_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:fillViewport="true"
-        app:layout_constraintTop_toBottomOf="@+id/backgroundImage">
+        app:layout_constraintTop_toBottomOf="@+id/backgroundImage"
+        app:layout_constraintVertical_bias="0.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <!--Name-->
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/font_regular"
+                android:gravity="center"
+                android:text="@string/total_de_la_somme_transf_r_e"
+                android:textColor="@color/medium_head"
+                android:textSize="@dimen/small_textsize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_bold"
+                android:gravity="center"
+                android:text="599.58€"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView11" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_regular"
+                android:gravity="center"
+                android:text="@string/total_de_la_somme_transf_r_e"
+                android:textColor="@color/medium_head"
+                android:textSize="@dimen/small_textsize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@id/textView12"
+                app:layout_constraintStart_toStartOf="parent"
+              />
+
+                   <!--Name-->
             <TextView
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:fontFamily="@font/font_regular"
-                android:text="@string/pr_nom"
-                android:textColor="@color/hint_colour"
+                android:text="@string/identifiant_iban"
+                android:textColor="@color/medium_head"
                 android:textSize="@dimen/small_textsize"
                 app:layout_constraintBottom_toTopOf="@+id/userName"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.08"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@id/textView13" />
 
             <androidx.appcompat.widget.AppCompatEditText
 
@@ -84,9 +145,11 @@
                 android:layout_marginStart="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_20sdp"
                 android:drawableEnd="@drawable/eye"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
                 android:fontFamily="@font/font_semibold"
-                android:hint="@string/mattie"
-                android:inputType="textEmailAddress"
+                android:hint="1450 0500 0064 1887 7477"
+                android:inputType="number"
                 android:textSize="@dimen/medium_size"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -101,8 +164,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_16sdp"
                 android:fontFamily="@font/font_regular"
-                android:text="@string/nom"
-                android:textColor="@color/hint_colour"
+                android:text="@string/bic"
+                android:textColor="@color/medium_head"
                 android:textSize="@dimen/small_textsize"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.08"
@@ -118,7 +181,10 @@
                 android:layout_marginEnd="@dimen/_20sdp"
                 android:drawableEnd="@drawable/eye"
                 android:fontFamily="@font/font_semibold"
-                android:hint="@string/hardwick"
+                android:hint="@string/_16x41zz"
+                android:textColor="@color/black"
+
+                android:textColorHint="@color/black"
                 android:inputType="textEmailAddress"
                 android:textSize="@dimen/medium_size"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -128,22 +194,23 @@
 
 
             <!--Name-->
+
+
+            <!--Name-->
             <TextView
                 android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/font_regular"
-                android:text="@string/address_email"
-                android:textColor="@color/hint_colour"
+                android:text="@string/frais_de_transfert"
+                android:textColor="@color/medium_head"
                 android:textSize="@dimen/small_textsize"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintHorizontal_bias="0.085"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/userFullName" />
 
-
-            <!--Name-->
             <androidx.appcompat.widget.AppCompatEditText
 
                 android:id="@+id/fullEmail"
@@ -153,92 +220,41 @@
                 android:layout_marginEnd="@dimen/_20sdp"
                 android:drawableEnd="@drawable/eye"
                 android:fontFamily="@font/font_semibold"
-                android:hint="@string/address_email"
-                android:inputType="textEmailAddress"
+                android:hint="2.50€"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:inputType="text"
                 android:textSize="@dimen/medium_size"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/email" />
 
-            <TextView
-                android:id="@+id/password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_16sdp"
-                android:fontFamily="@font/font_regular"
-                android:text="@string/password"
-                android:textColor="@color/hint_colour"
-                android:textSize="@dimen/small_textsize"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.08"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/fullEmail" />
-
-
-            <androidx.appcompat.widget.AppCompatEditText
-
-                android:id="@+id/fullpassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:layout_marginEnd="@dimen/_20sdp"
-                android:drawableEnd="@drawable/eye"
-                android:fontFamily="@font/font_semibold"
-                android:hint="@string/password"
-                android:inputType="textPassword"
-                android:textSize="@dimen/medium_size"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/password" />
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/login"
-                android:layout_width="@dimen/_170sdp"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/_45sdp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginBottom="24dp"
                 android:backgroundTint="@color/app_colour"
                 android:fontFamily="@font/font_semibold"
-                android:text="@string/cr_er_un_compt"
+                android:text="@string/relecture"
                 android:textColor="@color/white"
                 android:textSize="@dimen/small_textsize"
                 app:cornerRadius="26dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/fullpassword"
+                app:layout_constraintEnd_toEndOf="@+id/fullEmail"
                 app:layout_constraintHorizontal_bias="0.504"
-                app:layout_constraintStart_toStartOf="@+id/fullpassword"
-                app:layout_constraintTop_toBottomOf="@+id/fullpassword"
+                app:layout_constraintStart_toStartOf="@+id/fullEmail"
+                app:layout_constraintTop_toBottomOf="@+id/fullEmail"
                 app:layout_constraintVertical_bias="0.0" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/font_regular"
-                android:text="@string/d_j_un_compte"
-                android:textColor="@color/dark"
-                android:textSize="@dimen/small_textsize"
-                app:layout_constraintEnd_toEndOf="@+id/login"
-                app:layout_constraintHorizontal_bias="0.16"
-                app:layout_constraintStart_toStartOf="@+id/login"
-                app:layout_constraintTop_toBottomOf="@+id/login" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_6sdp"
-                android:text="@string/se_connecter"
-                android:textColor="@color/app_colour"
-                android:textSize="@dimen/small_textsize"
-                app:layout_constraintBottom_toBottomOf="@+id/textView"
-                app:layout_constraintStart_toEndOf="@+id/textView"
-                app:layout_constraintTop_toTopOf="@+id/textView" />
+
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
