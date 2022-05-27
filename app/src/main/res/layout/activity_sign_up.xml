@@ -197,7 +197,8 @@
                 android:id="@+id/login"
                 android:layout_width="@dimen/_170sdp"
                 android:layout_height="@dimen/_45sdp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="24dp"
                 android:backgroundTint="@color/app_colour"
                 android:fontFamily="@font/font_semibold"
                 android:text="@string/cr_er_un_compt"
@@ -209,7 +210,7 @@
                 app:layout_constraintHorizontal_bias="0.504"
                 app:layout_constraintStart_toStartOf="@+id/fullpassword"
                 app:layout_constraintTop_toBottomOf="@+id/fullpassword"
-                app:layout_constraintVertical_bias="0.086" />
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/textView"
