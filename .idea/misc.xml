@@ -10,15 +10,24 @@
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/pin_full_dot.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/font/titillium_web.xml" value="0.11875" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_check_email.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_controle_setup.xml" value="0.1921875" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_create_pin.xml" value="0.1576923076923077" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_create_pin_confirm.xml" value="0.1576923076923077" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_envoy_email.xml" value="0.18923076923076923" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_main.xml" value="0.178125" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_new_password.xml" value="0.22" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screeen.xml" value="0.2" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screen3.xml" value="0.178125" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screen4.xml" value="0.178125" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screen5.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_onboarding_screen2.xml" value="0.1921875" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_pin_screen.xml" value="0.22" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_transaction_detail.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_transaction_history.xml" value="0.1921875" />
       </map>
     </option>
   </component>

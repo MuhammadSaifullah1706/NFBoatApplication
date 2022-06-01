@@ -129,4 +129,7 @@
     <string name="statut">Statut</string>
     <string name="montant">Montant</string>
     <string name="envoyer">Envoyer</string>
+    <string name="envoyer_par_email">Envoyer par email</string>
+    <string name="veuillez_renseigner_une_adresse_email">Veuillez renseigner une adresse email</string>
+    <string name="vreynie_nfboat_com">vreynie@nfboat.com</string>
 </resources>
