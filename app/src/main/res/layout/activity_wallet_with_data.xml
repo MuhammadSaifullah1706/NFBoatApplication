@@ -43,6 +43,19 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/view_color"
+        app:layout_constraintTop_toBottomOf="@id/searchHomeScreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_20sdp"/>
+
+
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -52,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/searchHomeScreen"
+        app:layout_constraintTop_toBottomOf="@id/view1"
         app:layout_constraintVertical_bias="1.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -65,7 +78,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/font_semibold"
                 android:gravity="center"
-                android:text="@string/_0_00"
+                android:text="599,58€"
                 android:textColor="@color/black"
                 android:textSize="@dimen/large_sizetext"
                 app:layout_constraintEnd_toEndOf="parent"

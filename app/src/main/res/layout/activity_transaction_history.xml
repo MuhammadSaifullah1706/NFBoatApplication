@@ -51,9 +51,10 @@
         android:id="@+id/scrollLogin"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/bghistory"
+        android:background="@drawable/simple_white_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/_30sdp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backgroundImage"
@@ -535,7 +536,7 @@
                 android:layout_marginBottom="32dp"
                 android:backgroundTint="@color/app_colour"
                 android:fontFamily="@font/font_semibold"
-                android:text="@string/retour_a_l_accueil"
+                android:text="Retour a l’accueil"
                 android:textColor="@color/white"
                 android:textSize="@dimen/small_textsize"
                 app:cornerRadius="26dp"
@@ -551,6 +552,26 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/scrollLogin"
+        android:layout_marginBottom="-25dp"
+        app:layout_constraintEnd_toEndOf="@id/scrollLogin"
+        app:layout_constraintStart_toStartOf="@id/scrollLogin">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/appCompatImageView5"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/history"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 

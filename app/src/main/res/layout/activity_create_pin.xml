@@ -6,7 +6,7 @@
     tools:context=".activity.CreatePinActivity"
     android:background="@color/pin_background"
     >
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView2"
         android:layout_width="@dimen/_20sdp"
         android:layout_height="@dimen/_20sdp"
@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/backicon_black"
-        android:contentDescription="@string/ok" />
+      />
 
     <TextView
         android:id="@+id/textView4"
@@ -61,8 +61,8 @@
         app:layout_constraintVertical_bias="0.501">
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:layout_weight="1"
             android:background="@drawable/oval"
             android:clickable="true"
@@ -79,8 +79,8 @@
             android:focusable="true" />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:layout_marginStart="@dimen/_20sdp"
             android:layout_weight="1"
             android:background="@drawable/oval"
@@ -98,8 +98,8 @@
             android:focusable="true" />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:layout_marginStart="@dimen/_20sdp"
             android:layout_weight="1"
             android:background="@drawable/oval"
@@ -117,8 +117,8 @@
             android:focusable="true" />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
             android:layout_marginStart="@dimen/_20sdp"
             android:layout_weight="1"
             android:background="@drawable/oval"
@@ -140,10 +140,11 @@
         android:id="@+id/clPinCode2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/_20sdp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.appcompat.widget.AppCompatImageView
