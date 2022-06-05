@@ -57,7 +57,7 @@
             android:contentDescription="@string/ok" />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_200sdp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_5sdp"
             android:fontFamily="@font/font_semibold"
@@ -71,6 +71,17 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <View
+        android:id="@+id/view21"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/view_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchHomeScreen" />
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -80,7 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/searchHomeScreen"
+        app:layout_constraintTop_toBottomOf="@id/view21"
         app:layout_constraintVertical_bias="1.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -151,7 +162,7 @@
                 android:fontFamily="@font/font_semibold"
                 android:text="Document"
                 android:textColor="@color/medium_head"
-                android:textSize="@dimen/small_textsize"
+                android:textSize="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView8"
                 app:layout_constraintStart_toStartOf="@+id/imageView8"
                 app:layout_constraintTop_toBottomOf="@+id/imageView8" />
@@ -164,7 +175,7 @@
                 android:fontFamily="@font/font_semibold"
                 android:text="Factures"
                 android:textColor="@color/medium_head"
-                android:textSize="@dimen/small_textsize"
+                android:textSize="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView9"
                 app:layout_constraintStart_toStartOf="@+id/imageView9"
                 app:layout_constraintTop_toBottomOf="@+id/imageView9" />
@@ -177,7 +188,7 @@
                 android:fontFamily="@font/font_semibold"
                 android:text="Immatriculation"
                 android:textColor="@color/medium_head"
-                android:textSize="@dimen/small_textsize"
+                android:textSize="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView10"
                 app:layout_constraintStart_toStartOf="@+id/imageView10"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10" />
@@ -190,7 +201,7 @@
                 android:fontFamily="@font/font_semibold"
                 android:text="Assurance"
                 android:textColor="@color/medium_head"
-                android:textSize="@dimen/small_textsize"
+                android:textSize="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView11"
                 app:layout_constraintStart_toStartOf="@+id/imageView11"
                 app:layout_constraintTop_toBottomOf="@+id/imageView11" />
@@ -239,9 +250,6 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:layout_marginBottom="@dimen/_8sdp"
                     />
-
-
-
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

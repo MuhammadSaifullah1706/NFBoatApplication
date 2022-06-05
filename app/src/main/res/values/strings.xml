@@ -132,4 +132,6 @@
     <string name="envoyer_par_email">Envoyer par email</string>
     <string name="veuillez_renseigner_une_adresse_email">Veuillez renseigner une adresse email</string>
     <string name="vreynie_nfboat_com">vreynie@nfboat.com</string>
+    <string name="veuillez_v_rifier_attentivement_chaque_information_une_fois_que_vous_cliquerez_sur_enregistrer_mon_bateau_il_sera_d_finitivement_inscrit_sur_la_blockchain">Veuillez vérifier attentivement chaque information. Une fois que vous cliquerez sur “enregistrer mon bateau”, il sera définitivement inscrit sur la blockchain.</string>
+    <string name="une_cl_priv_e_vous_sera_alors_transmise_vous_serez_le_seul_propri_taire_de_toutes_les_donn_es_figurant_dans_votre_wallet">Une clé privée vous sera alors transmise, vous serez le seul propriétaire de toutes les données figurant dans votre wallet.</string>
 </resources>

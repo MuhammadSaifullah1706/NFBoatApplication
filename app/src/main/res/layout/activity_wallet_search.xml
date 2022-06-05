@@ -26,16 +26,15 @@
             android:layout_marginTop="16dp"
             android:contentDescription="@string/ok"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.11"
+            app:layout_constraintHorizontal_bias="0.08"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/backicon_black" />
 
         <TextView
             android:id="@+id/tetViw6"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:fontFamily="@font/font_regular"
             android:gravity="center"
             android:text="@string/rechercher_un_bateau_ou_un_document"
@@ -43,9 +42,9 @@
             android:textSize="@dimen/small_textsize"
             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
         <TextView
             android:id="@+id/suggestion"
@@ -207,21 +206,22 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
+            <!--Wallet Search Recycler List-->
+
             <TextView
                 android:id="@+id/recentSearches"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:fontFamily="@font/font_regular"
+                android:fontFamily="@font/font_semibold"
                 android:text="@string/recherches_recentes"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/small_textsize"
                 app:layout_constraintEnd_toEndOf="@+id/constraint4"
-                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintHorizontal_bias="0.079"
                 app:layout_constraintStart_toStartOf="@+id/constraint4"
                 app:layout_constraintTop_toBottomOf="@id/constraint4" />
 
-            <!--Wallet Search Recycler List-->
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

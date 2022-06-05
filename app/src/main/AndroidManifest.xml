@@ -14,13 +14,8 @@
             android:name=".activity.OnBoardingScreen5Activity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            tools:ignore="LockedOrientationActivity"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".activity.OnBoardingScreen4Activity"
             android:exported="true"
@@ -45,20 +40,22 @@
             tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".activity.PdfReaderActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity.EnvoyEmailActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".activity.TransactionHistoryActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.TransactionDetailActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.ConfirmTransferActivity"
             android:exported="true"
@@ -73,30 +70,39 @@
             android:name=".activity.AddDocumentActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+            tools:ignore="LockedOrientationActivity"/>
+
         <activity
             android:name=".activity.ControleEnMer2Activity"
-            android:exported="true" />
-        <activity
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
+
+    <activity
             android:name=".activity.ControleSetupActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.ValidationBateauActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.Ajouteunbateau2Activity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+            tools:ignore="LockedOrientationActivity"/>
+
         <activity
             android:name=".activity.AjouteunbateauActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+            tools:ignore="LockedOrientationActivity"/>
+
         <activity
             android:name=".activity.BoatSection3Activity"
             android:exported="true"
@@ -107,16 +113,25 @@
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
+
         <activity
             android:name=".activity.WalletSearchActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.WalletWithDataActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+            tools:ignore="LockedOrientationActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".activity.WalletActivity"
             android:exported="true"
@@ -127,21 +142,25 @@
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.CreatePinConfirmActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+            tools:ignore="LockedOrientationActivity"/>
+
         <activity
             android:name=".activity.CreatePinActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.SignUpActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
         <activity
             android:name=".activity.NewPasswordActivity"
             android:exported="true"
@@ -162,6 +181,8 @@
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
+
+
         <activity
             android:name=".activity.LoginActivity"
             android:exported="true"

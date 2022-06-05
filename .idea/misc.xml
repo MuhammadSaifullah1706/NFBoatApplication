@@ -5,16 +5,25 @@
       <map>
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable-v24/backicon_black.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/backicon.xml" value="0.20833333333333334" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/backicon_black.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/button1.xml" value="0.20833333333333334" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/down.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/pin_empty_dot.xml" value="0.19427083333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/pin_full_dot.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/font/titillium_web.xml" value="0.11875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_add_document.xml" value="0.12138157894736842" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_ajouteunbateau.xml" value="0.1" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_ajouteunbateau2.xml" value="0.25" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_boat_section.xml" value="0.12138157894736842" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_check_email.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_confirm_transfer.xml" value="0.12138157894736842" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_controle_en_mer2.xml" value="0.25" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_controle_setup.xml" value="0.1921875" />
-        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_create_pin.xml" value="0.1576923076923077" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_create_pin.xml" value="0.16" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_create_pin_confirm.xml" value="0.1576923076923077" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_envoy_email.xml" value="0.18923076923076923" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_home_screen.xml" value="0.33" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_main.xml" value="0.178125" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_new_password.xml" value="0.22" />
@@ -23,11 +32,17 @@
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screen4.xml" value="0.178125" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screen5.xml" value="0.1921875" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_onboarding_screen2.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_pdf_reader.xml" value="0.1921875" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_pin_screen.xml" value="0.22" />
-        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.14" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_splash.xml" value="0.1921875" />
-        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_transaction_detail.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_transaction_detail.xml" value="0.33" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_transaction_history.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_transfer_fund.xml" value="0.1921875" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_validation_bateau.xml" value="0.12138157894736842" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_wallet.xml" value="0.25" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_wallet_search.xml" value="0.22" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_wallet_with_data.xml" value="0.1921875" />
       </map>
     </option>
   </component>

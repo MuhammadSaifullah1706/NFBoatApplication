@@ -191,7 +191,7 @@
                 android:layout_marginBottom="24dp"
                 android:backgroundTint="@color/app_colour"
                 android:fontFamily="@font/font_semibold"
-                android:text="@string/confirm"
+                android:text="@string/confirmer"
                 android:textColor="@color/white"
                 android:textSize="@dimen/small_textsize"
                 app:cornerRadius="26dp"
