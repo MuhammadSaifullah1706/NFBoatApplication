@@ -200,7 +200,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
-                        android:hint="29/06/1996"
+                        android:hint="29-06-1996"
                         android:textColorHint="@color/medium_head"
                         android:textSize="@dimen/medium_size"
                         android:layout_weight="1"
@@ -323,7 +323,8 @@
                     app:layout_constraintHorizontal_bias="0.8"
                     app:layout_constraintStart_toEndOf="@+id/textView2"
                     app:layout_constraintTop_toTopOf="@+id/textView2"
-                    app:srcCompat="@drawable/write" />
+                    app:srcCompat="@drawable/write"
+                    android:contentDescription="@string/ok" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -354,7 +355,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
-                        android:text="Nom et Prénom"
+                        android:text="@string/nom_et_pr_nom"
                         android:textColor="@color/hint_colour"
                         android:textSize="@dimen/small_textsize" />
 
@@ -422,7 +423,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_8sdp"
-                    android:text="Addresse"
+                    android:text="@string/addresse"
                     android:textColor="@color/hint_colour"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.1"
@@ -459,7 +460,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_8sdp"
-                    android:text="Téléphone"
+                    android:text="@string/t_l_phone"
                     android:textColor="@color/hint_colour"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.09"
@@ -472,7 +473,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_marginEnd="@dimen/_20sdp"
-                    android:hint="+33 6 61 55 97 80"
+                    android:hint="@string/_33_6_61_55_97_80"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.9"
                     app:layout_constraintStart_toStartOf="parent"
@@ -508,7 +509,7 @@
                     android:layout_marginTop="16dp"
                     android:fontFamily="@font/font_semibold"
                     android:gravity="center"
-                    android:text="Informations sur le bien"
+                    android:text="nformations_sur_le_bien"
                     android:textColor="@color/medium_head"
                     android:textSize="@dimen/medium_size"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -525,7 +526,8 @@
                     app:layout_constraintHorizontal_bias="0.8"
                     app:layout_constraintStart_toEndOf="@+id/textView21"
                     app:layout_constraintTop_toTopOf="@+id/textView21"
-                    app:srcCompat="@drawable/write" />
+                    app:srcCompat="@drawable/write"
+                    android:contentDescription="@string/ok" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -557,7 +559,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
-                        android:text="Type de bateau"
+                        android:text="@string/type_de_bateau"
                         android:textColor="@color/hint_colour"
                         android:textSize="@dimen/small_textsize" />
 
@@ -565,7 +567,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Assurance"
+                        android:text="@string/assurance"
                         android:textColor="@color/hint_colour"
                         android:textSize="@dimen/small_textsize" />
 
@@ -588,7 +590,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:hint="voiler"
+                        android:hint="Voiler"
                         android:textColorHint="@color/medium_head"
                         android:layout_weight="1"
                         android:textColor="@color/medium_head"
@@ -637,14 +639,14 @@
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
-                        android:text="Année"
+                        android:text="@string/ann_e"
                         android:textColor="@color/hint_colour" />
 
                     <TextView
                         android:id="@+id/textView193"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="N° de série"
+                        android:text="@string/n_de_s_rie"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
                         android:textColor="@color/hint_colour" />
@@ -668,7 +670,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:hint="2018"
+                        android:hint="@string/_2018"
                         android:textColorHint="@color/medium_head"
                         android:layout_weight="1"
                         android:textColor="@color/medium_head"
@@ -716,7 +718,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:text="Longueur"
+                        android:text="@string/longueur"
                         android:layout_weight="1"
                         android:layout_marginEnd="@dimen/_12sdp"
                         android:textSize="@dimen/small_textsize"
@@ -727,7 +729,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:text="Largeur"
+                        android:text="@string/largeur"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
                         android:textColor="@color/hint_colour" />
@@ -753,7 +755,7 @@
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
                         android:fontFamily="@font/font_semibold"
-                        android:hint="15,2m"
+                        android:hint="@string/_15_2m"
                         android:textColorHint="@color/medium_head"
                         android:textSize="@dimen/medium_size" />
 
@@ -763,7 +765,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:fontFamily="@font/font_semibold"
-                        android:hint="4,3m"
+                        android:hint="@string/_4_3m"
                         android:textColorHint="@color/medium_head"
                         android:textSize="@dimen/medium_size" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -799,7 +801,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:text="Marque du moteur"
+                        android:text="@string/marque_du_moteur"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
@@ -810,7 +812,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:text="Puissance du moteur"
+                        android:text="@string/puissance_du_moteur"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
                         android:textColor="@color/hint_colour" />
@@ -836,7 +838,7 @@
                         android:fontFamily="@font/font_semibold"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
-                        android:hint="Yamaha"
+                        android:hint="@string/yamaha"
                         android:textColorHint="@color/medium_head"
                         android:textSize="@dimen/medium_size"
                         />
@@ -886,7 +888,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:text="Affaires maritimes"
+                        android:text="@string/affaires_maritimes"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
@@ -897,7 +899,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_8sdp"
-                        android:text="N° d’affilié"
+                        android:text="@string/n_d_affili"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
                         android:textColor="@color/hint_colour" />
@@ -923,7 +925,7 @@
                         android:fontFamily="@font/font_semibold"
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
-                        android:hint="Région PACA"
+                        android:hint="Region Paca"
                         android:textColorHint="@color/medium_head"
                         android:textSize="@dimen/medium_size"
                         />
@@ -932,7 +934,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
-                        android:hint="xtez345zxCFxcc"
+                        android:hint="@string/xtez345zxcfxcc"
                         android:textColorHint="@color/medium_head"
                         android:textSize="@dimen/medium_size"
                         android:layout_weight="1"
@@ -964,7 +966,8 @@
                     android:weightSum="2"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="TooManyViews">
 
                     <TextView
                         android:id="@+id/textiew175"
@@ -973,14 +976,15 @@
                         android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
-                        android:text="Franchisé en douanes"
+
+                        android:text="@string/franchis_en_douanes"
                         android:textColor="@color/hint_colour" />
 
                     <TextView
                         android:id="@+id/textView195"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:text="N° de douanes"
+                        android:text="@string/n_de_douanes"
                         android:layout_weight="1"
                         android:textSize="@dimen/small_textsize"
                         android:textColor="@color/hint_colour" />
@@ -1004,7 +1008,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:hint="Marseille"
+                        android:hint="@string/marseille"
                         android:textColorHint="@color/medium_head"
                         android:layout_weight="1"
                         android:textColor="@color/medium_head"
@@ -1061,7 +1065,8 @@
                     app:layout_constraintHorizontal_bias="0.8"
                     app:layout_constraintStart_toEndOf="@+id/textView15"
                     app:layout_constraintTop_toTopOf="@+id/textView15"
-                    app:srcCompat="@drawable/write" />
+                    app:srcCompat="@drawable/write"
+                    android:contentDescription="@string/ok" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -1124,7 +1129,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/font_semibold"
                         android:layout_marginEnd="@dimen/_10sdp"
-                        android:hint="Voilier"
+                        android:hint="@string/voilier"
                         android:textColorHint="@color/medium_head"
                         android:layout_weight="1"
                         android:textColor="@color/medium_head"

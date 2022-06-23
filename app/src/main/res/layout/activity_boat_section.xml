@@ -122,7 +122,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textView7"
                 app:srcCompat="@drawable/documentpic"
-                tools:layout_editor_absoluteY="41dp" />
+                tools:layout_editor_absoluteY="41dp"
+                android:contentDescription="@string/ok" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -132,7 +133,8 @@
                 app:layout_constraintEnd_toStartOf="@+id/imageView10"
                 app:layout_constraintStart_toEndOf="@+id/imageView8"
                 app:layout_constraintTop_toBottomOf="@id/textView7"
-                app:srcCompat="@drawable/factures" />
+                app:srcCompat="@drawable/factures"
+                android:contentDescription="@string/ok" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -142,7 +144,8 @@
                 app:layout_constraintEnd_toStartOf="@+id/imageView11"
                 app:layout_constraintStart_toEndOf="@+id/imageView9"
                 app:layout_constraintTop_toBottomOf="@id/textView7"
-                app:srcCompat="@drawable/imatriculation" />
+                app:srcCompat="@drawable/imatriculation"
+                android:contentDescription="@string/ok" />
 
             <ImageView
                 android:id="@+id/imageView11"
@@ -152,7 +155,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView10"
                 app:layout_constraintTop_toBottomOf="@id/textView7"
-                app:srcCompat="@drawable/assurance" />
+                app:srcCompat="@drawable/assurance"
+                android:contentDescription="@string/ok" />
 
             <TextView
                 android:id="@+id/ttViw6"
@@ -199,7 +203,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/font_semibold"
-                android:text="Assurance"
+                android:text="@string/assurance"
                 android:textColor="@color/medium_head"
                 android:textSize="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="@+id/imageView11"
