@@ -152,7 +152,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraint4"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_55sdp"
+            android:layout_height="@dimen/_75sdp"
             android:layout_marginTop="@dimen/_10sdp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
