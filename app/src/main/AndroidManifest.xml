@@ -11,88 +11,82 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NFBoatApplication">
         <activity
+            android:name=".bottomnavigation.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"  >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+        <activity
             android:name=".workflow6.ProfilStep4Activity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".workflow6.ProfilStep5Activity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".workflow6.Authentification1facteursActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".workflow6.ChangePasswordActivity2"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".workflow6.ChangePasswordActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".workflow6.SecurityActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".workflow6.ChooseCurrencyActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".activity.OnBoardingScreen5Activity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
-
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".activity.OnBoardingScreen4Activity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".activity.OnBoardingScreen3Activity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".activity.OnboardingScreen2Activity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".activity.OnBoardingScreeenActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
-
         <activity
             android:name=".activity.PdfReaderActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity"/>
+            tools:ignore="LockedOrientationActivity" />
         <activity
             android:name=".activity.EnvoyEmailActivity"
             android:exported="true"
@@ -190,7 +184,8 @@
             android:name=".activity.SignUpActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" />
+            tools:ignore="LockedOrientationActivity"/>
+
         <activity
             android:name=".activity.NewPasswordActivity"
             android:exported="true"

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contratsFragment">
+
+    <fragment
+        android:id="@+id/accueilFragment"
+        android:name="com.example.nfboatapplication.AccueilFragment"
+        android:label="fragment_accueil"
+        tools:layout="@layout/fragment_accueil" />
+    <fragment
+        android:id="@+id/portsFragment"
+        android:name="com.example.nfboatapplication.PortsFragment"
+        android:label="fragment_ports"
+        tools:layout="@layout/fragment_ports" />
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.example.nfboatapplication.WalletFragment"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" />
+    <fragment
+        android:id="@+id/contratsFragment"
+        android:name="com.example.nfboatapplication.ContratsFragment"
+        android:label="fragment_contrats"
+        tools:layout="@layout/fragment_contrats" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.nfboatapplication.ProfilFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

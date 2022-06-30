@@ -176,6 +176,8 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="g">Je propose une location de mon bateau (450 CV) qui se situe sur le port de Marseille. N’hésitez pas à me contacter si proposition d’achat, je suis ouvert à toute proposition.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
