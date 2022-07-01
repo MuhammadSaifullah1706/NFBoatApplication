@@ -12,6 +12,7 @@
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/navsvg5.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/pin_empty_dot.xml" value="0.19427083333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/pin_full_dot.xml" value="0.20833333333333334" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/selecter.xml" value="0.20833333333333334" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/drawable/stroke_round.xml" value="0.13157894736842105" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/font/titillium_web.xml" value="0.11875" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_add_document.xml" value="0.22" />
@@ -49,7 +50,7 @@
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_louer_bateau2.xml" value="0.12138157894736842" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_louer_son_bateau1.xml" value="0.1921875" />
-        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_main.xml" value="0.377008652657602" />
+        <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_main.xml" value="0.42219679633867274" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_new_password.xml" value="0.22" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screeen.xml" value="0.2" />
         <entry key="..\:/NFBoatApplication/app/src/main/res/layout/activity_on_boarding_screen3.xml" value="0.178125" />
