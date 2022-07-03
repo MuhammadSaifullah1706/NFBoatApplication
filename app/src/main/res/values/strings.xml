@@ -178,6 +178,8 @@
     <string name="g">Je propose une location de mon bateau (450 CV) qui se situe sur le port de Marseille. N’hésitez pas à me contacter si proposition d’achat, je suis ouvert à toute proposition.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_ultricies_sed_hendrerit_ac_mollis_sollicitudin_viverra_proin_phasellus_tristique_nulla_eu_leo_aliquet_maecenas_sapien_fermentum_curabitur_amet">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies sed hendrerit ac mollis sollicitudin viverra proin. Phasellus tristique nulla eu leo aliquet maecenas sapien. Fermentum curabitur amet.</string>
+    <string name="g2">Je propose une location de mon bateau (450 CV) qui se situe sur le port de Marseille. N’hésitez pas à me contacter si proposition d’achat, je suis ouvert à toute proposition.</string>
 
 
 </resources>
