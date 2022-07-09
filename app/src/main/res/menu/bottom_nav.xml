@@ -5,22 +5,22 @@
 
     <item
         android:id="@+id/accueilFragment"
-        android:icon="@drawable/navsvg1"
-        tools:ignore="MenuTitle" />
+        android:icon="@drawable/h1"
+        android:title="Accueil" />
     <item
         android:id="@+id/portsFragment"
-        android:icon="@drawable/navsvg2"
-        tools:ignore="MenuTitle" />
+        android:icon="@drawable/h2"
+        android:title="Ports"  />
     <item
         android:id="@+id/walletFragment"
         tools:ignore="MenuTitle" />
     <item
         android:id="@+id/contratsFragment"
-        android:icon="@drawable/navsvg4"
-        tools:ignore="MenuTitle" />
+        android:icon="@drawable/h3"
+        android:title="Messages" />
     <item
         android:id="@+id/profilFragment"
-        android:icon="@drawable/navsvg5"
-        tools:ignore="MenuTitle" />
+        android:icon="@drawable/h4"
+        android:title="Profil"  />
 
 </menu>

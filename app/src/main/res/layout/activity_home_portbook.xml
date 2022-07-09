@@ -10,13 +10,14 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/searchHomeScreen"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_40sdp"
+        android:layout_height="0dp"
         android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_15sdp"
         android:background="@drawable/homeround_background"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -25,23 +26,24 @@
             android:id="@+id/imageView3"
             android:layout_width="@dimen/_30sdp"
             android:layout_height="@dimen/_20sdp"
+            android:contentDescription="@string/ok"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/search"
-            android:contentDescription="@string/ok" />
+            app:srcCompat="@drawable/search" />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:layout_width="@dimen/_200sdp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_5sdp"
-            android:fontFamily="@font/font_semibold"
-            android:hint="Rechercher par marina ou région"
-            android:focusable="false"
             android:layout_marginTop="@dimen/_4sdp"
+            android:background="@null"
+            android:focusable="false"
+            android:fontFamily="@font/font_semibold"
             android:gravity="center_vertical"
+            android:hint="Rechercher par marina ou région"
             android:textSize="@dimen/medium_size"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +55,7 @@
     android:id="@+id/view21"
     android:layout_width="match_parent"
     android:layout_height="1dp"
-    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_marginTop="@dimen/_15sdp"
     android:background="@color/view_color"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -62,92 +64,104 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint2"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_200sdp"
-        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/constraint3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/view21">
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/appCompatImageView"
-        android:layout_width="@dimen/_135sdp"
-        android:layout_height="@dimen/_80sdp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/port1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:fontFamily="@font/font_regular"
-        android:gravity="center"
-        android:textColor="@color/top_head"
-        android:text="Notre séléction du moment"
-        android:textSize="@dimen/small_textsize"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="@dimen/_135sdp"
-        android:layout_height="@dimen/_80sdp"
-        android:layout_marginStart="12dp"
-        android:background="@drawable/port2"
-        app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView"
-        app:layout_constraintStart_toEndOf="@+id/appCompatImageView"
-        app:layout_constraintTop_toTopOf="@+id/appCompatImageView" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/port1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:layout_constraintWidth_percent="0.43" />
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/appCompatImageView2"
-        android:layout_width="@dimen/_135sdp"
-        android:layout_height="@dimen/_80sdp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/port3"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/appCompatImageView"
-        app:layout_constraintTop_toBottomOf="@id/appCompatImageView" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/font_regular"
+            android:gravity="center"
+            android:text="Notre séléction du moment"
+            android:textColor="@color/top_head"
+            android:textSize="@dimen/small_textsize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="@dimen/_135sdp"
-        android:layout_height="@dimen/_80sdp"
-        android:layout_marginStart="12dp"
-        android:background="@drawable/port4"
-        app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView2"
-        app:layout_constraintStart_toEndOf="@+id/appCompatImageView2"
-        app:layout_constraintTop_toTopOf="@+id/appCompatImageView2" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/port2"
+            app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView"
+            app:layout_constraintStart_toEndOf="@+id/appCompatImageView"
+            app:layout_constraintTop_toTopOf="@+id/appCompatImageView"
+            app:layout_constraintWidth_percent="0.43" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/port3"
+            app:layout_constraintEnd_toEndOf="@+id/appCompatImageView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/appCompatImageView"
+            app:layout_constraintTop_toBottomOf="@id/appCompatImageView"
+            app:layout_constraintWidth_percent="0.43" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/port4"
+            app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView2"
+            app:layout_constraintStart_toEndOf="@+id/appCompatImageView2"
+            app:layout_constraintTop_toTopOf="@+id/appCompatImageView2"
+            app:layout_constraintWidth_percent="0.43" />
 
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-</androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint3"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_200sdp"
-        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/constraint2">
+        app:layout_constraintTop_toBottomOf="@id/constraint2"
+        app:layout_constraintVertical_bias="0.0">
 
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/appCompatImageView1"
-            android:layout_width="@dimen/_135sdp"
-            android:layout_height="@dimen/_80sdp"
-            android:layout_marginTop="8dp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/port5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.09"
+            app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView61" />
+            app:layout_constraintTop_toBottomOf="@+id/textView61"
+            app:layout_constraintWidth_percent="0.43" />
+
         <TextView
             android:id="@+id/textView61"
             android:layout_width="0dp"
@@ -155,43 +169,44 @@
             android:layout_marginTop="12dp"
             android:fontFamily="@font/font_regular"
             android:gravity="center"
-            android:textColor="@color/top_head"
             android:text="Mes réservations en cours"
+            android:textColor="@color/top_head"
             android:textSize="@dimen/small_textsize"
-            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
+
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="@dimen/_135sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
             android:layout_marginStart="12dp"
             android:background="@drawable/port6"
             app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView1"
             app:layout_constraintStart_toEndOf="@+id/appCompatImageView1"
-            app:layout_constraintTop_toTopOf="@+id/appCompatImageView1" />
+            app:layout_constraintTop_toTopOf="@+id/appCompatImageView1"
+            app:layout_constraintWidth_percent="0.43" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/appCompatImageView21"
-            android:layout_width="@dimen/_135sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
             android:layout_marginTop="8dp"
             android:background="@drawable/port7"
             app:layout_constraintEnd_toEndOf="@+id/appCompatImageView1"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/appCompatImageView1"
-            app:layout_constraintTop_toBottomOf="@id/appCompatImageView1" />
+            app:layout_constraintTop_toBottomOf="@id/appCompatImageView1"
+            app:layout_constraintWidth_percent="0.43" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:layout_width="@dimen/_135sdp"
-            android:layout_height="@dimen/_80sdp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_90sdp"
             android:layout_marginStart="12dp"
             android:background="@drawable/port8"
             app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView21"
             app:layout_constraintStart_toEndOf="@+id/appCompatImageView21"
-            app:layout_constraintTop_toTopOf="@+id/appCompatImageView21" />
-
-
+            app:layout_constraintTop_toTopOf="@+id/appCompatImageView21"
+            app:layout_constraintWidth_percent="0.43" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
