@@ -13,7 +13,8 @@
         android:title="Ports"  />
     <item
         android:id="@+id/walletFragment"
-        tools:ignore="MenuTitle" />
+        android:title="Wallet"
+         />
     <item
         android:id="@+id/contratsFragment"
         android:icon="@drawable/h3"
