@@ -36,5 +36,6 @@
     <style name="Widget.BottomNavigationViewFontStyle"
         parent="Widget.Design.BottomNavigationView">
         <item name="android:fontFamily">@font/font_semibold</item>
+
     </style>
 </resources>

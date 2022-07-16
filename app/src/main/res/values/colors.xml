@@ -19,6 +19,7 @@
     <color name="view_color">#E6E6E6</color>
     <color name="port_color">#9FA5C0</color>
     <color name="result_dim">#ABABAB</color>
+    <color name="bottom_color">#9FA5C0</color>
 
 
     <!-- dots inactive colors -->
