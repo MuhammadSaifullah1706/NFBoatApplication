@@ -125,16 +125,57 @@
         <entry key="..\:/NFBoatApplication/app/src/main/res/menu/menu_scrolling.xml" value="0.1921875" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/app_background_round.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/app_backgroundcolor.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/blue_outline.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/botom_rounded.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/bottomapp_backgroundcolor.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/pin_rounded.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/pin_rounded_top.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/spinner_pic.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/white_rounded.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/drawable/white_square.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_add_document.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_ajouteunbateau.xml" value="0.25" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_ajouteunbateau2.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_confirm.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_contract_step1.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_create_pin.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_dates_location.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_filter_work_flow5.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_filters.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_louer_bateau2.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_louer_son_bateau1.xml" value="0.25" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_main2.xml" value="0.1921875" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_main3.xml" value="0.33" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_messagerie5.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_new_password.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_portbook_step5.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_profil_step5.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_publier_annonce1.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_recherche_step1.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_recherche_step2.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_recherche_step3.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_recherche_step4.xml" value="0.18" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_reherche.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_resultat.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_searchboat.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_vendre_son_bateau1.xml" value="0.25" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_vendreson_bateau2.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/activity_wallet.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/bottom_longer_beaute.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/bottom_longer_beaute2.xml" value="0.22" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/bottom_sheet_durée.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/bottom_sheet_puissance.xml" value="0.25" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/fragment_accueil.xml" value="0.1" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/fragment_contrats.xml" value="0.1" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/fragment_ports.xml" value="0.1" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/fragment_wallet.xml" value="0.1" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/list_type_marquee.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/list_typedebateau.xml" value="0.25" />
+        <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/layout/spinner_custom.xml" value="0.1921875" />
         <entry key="..\:/Users/MuhammadSaif/AndroidStudioProjects/NFBoatApplication/app/src/main/res/menu/bottom_nav.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1921875" />
+        <entry key="..\:/Users/MuhammadSaif/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_item.xml" value="0.1921875" />
       </map>
     </option>
   </component>

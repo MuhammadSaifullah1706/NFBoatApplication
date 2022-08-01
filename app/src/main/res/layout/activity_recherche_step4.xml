@@ -144,18 +144,6 @@
                 app:layout_constraintTop_toBottomOf="@id/constraint1">
 
 
-                <ImageView
-                    android:id="@+id/imageView33"
-                    android:layout_width="@dimen/_30sdp"
-                    android:layout_height="@dimen/_20sdp"
-                    android:layout_marginEnd="16dp"
-                    android:contentDescription="@string/ok"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/down" />
-
-
                 <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/appCompatImageView43"
                     android:layout_width="@dimen/_30sdp"
@@ -172,13 +160,43 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/font_semibold"
                     android:text="Marque"
+                    android:visibility="gone"
                     android:textColor="@color/black"
                     android:textSize="@dimen/medium_size"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView33"
-                    app:layout_constraintHorizontal_bias="0.2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.15"
                     app:layout_constraintStart_toEndOf="@+id/appCompatImageView43"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/menu"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:background="@drawable/pin_rounded"
+                    app:boxBackgroundColor="@color/pin_background"
+                    app:counterTextColor="@color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/appCompatImageView43"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/drop_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:fontFamily="@font/font_semibold"
+                        android:inputType="none"
+                        android:text="Marquee"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -219,12 +237,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/font_semibold"
-                    android:text="Durée (si location)"
+                    android:text="Durée"
                     android:textColor="@color/black"
                     android:textSize="@dimen/medium_size"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.2"
+                    app:layout_constraintHorizontal_bias="0.17"
                     app:layout_constraintStart_toEndOf="@+id/appCompatImageView41"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -233,101 +251,63 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraint4"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_42sdp"
-                android:layout_margin="@dimen/_20sdp"
-                android:background="@drawable/pin_rounded"
-                android:elevation="@dimen/_5sdp"
-                android:gravity="center"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/constraint3">
-                <ImageView
-                    android:id="@+id/imageView3323"
-                    android:layout_width="@dimen/_30sdp"
-                    android:layout_height="@dimen/_20sdp"
-                    android:layout_marginEnd="16dp"
-                    android:contentDescription="@string/ok"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/down" />
-
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/appCompatImageView411"
-                    android:layout_width="@dimen/_30sdp"
-                    android:layout_height="@dimen/_30sdp"
-                    android:layout_marginStart="25dp"
-                    android:src="@drawable/vector4"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-                <TextView
-                    android:id="@+id/textView1111"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/font_semibold"
-                    android:text="Prix minimum"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/medium_size"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.2"
-                    app:layout_constraintStart_toEndOf="@+id/appCompatImageView411"
-                    app:layout_constraintTop_toTopOf="parent" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/constraint5"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_42sdp"
-                android:layout_margin="@dimen/_20sdp"
-                android:layout_marginBottom="32dp"
-                android:background="@drawable/pin_rounded"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="61dp"
                 android:elevation="@dimen/_5sdp"
                 android:gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.509"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/constraint4"
-                app:layout_constraintVertical_bias="0.0">
+                app:layout_constraintTop_toBottomOf="@id/constraint3"
+                app:layout_constraintVertical_bias="0.23000002">
 
-                <ImageView
-                    android:id="@+id/imageView33234"
-                    android:layout_width="@dimen/_30sdp"
-                    android:layout_height="@dimen/_20sdp"
-                    android:layout_marginEnd="16dp"
-                    android:contentDescription="@string/ok"
-                    app:layout_constraintBottom_toBottomOf="parent"
+
+                <TextView
+                    android:id="@+id/suggestion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:fontFamily="@font/font_semibold"
+                    android:gravity="center"
+                    android:text="Fourchette de prix (jour)"
+                    android:textColor="@color/simple_black"
+                    android:textSize="@dimen/medium_size"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/down" />
-
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/appCompatImageView4114"
-                    android:layout_width="@dimen/_30sdp"
-                    android:layout_height="@dimen/_30sdp"
-                    android:layout_marginStart="25dp"
-                    android:src="@drawable/vector4"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView11114"
+                    android:id="@+id/suggestion2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/font_semibold"
-                    android:text="Prix maximum"
-                    android:textColor="@color/black"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:text="150€ - 500€"
+                    android:textColor="@color/simple_black"
                     android:textSize="@dimen/medium_size"
+                    app:layout_constraintEnd_toEndOf="@+id/suggestion1"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/suggestion1"
+                    app:layout_constraintTop_toBottomOf="@+id/suggestion1" />
+
+
+                <ImageView
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/line2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.2"
-                    app:layout_constraintStart_toEndOf="@+id/appCompatImageView4114"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/suggestion2" />
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

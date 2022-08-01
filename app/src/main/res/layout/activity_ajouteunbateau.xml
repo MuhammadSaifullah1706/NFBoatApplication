@@ -133,8 +133,8 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraint2"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_60sdp"
-                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -144,33 +144,42 @@
                     android:id="@+id/textView14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/type_de_bateau"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:text="Type de bateau"
                     android:textColor="@color/hint_colour"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.1"
+                    app:layout_constraintHorizontal_bias="0.09"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <androidx.appcompat.widget.AppCompatImageView
-                    android:id="@+id/imageView18"
-                    android:layout_width="@dimen/_24sdp"
-                    android:layout_height="@dimen/_24sdp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.9"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView14"
-                    app:srcCompat="@drawable/down" />
-
-                <View
-                    android:id="@+id/view2"
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/menu"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                     android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="@dimen/_10sdp"
-                    android:background="@color/view_color"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/white_square"
+                    app:boxBackgroundColor="@null"
+                    app:counterTextColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.09"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent" />
+                    app:layout_constraintTop_toBottomOf="@id/textView14">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/drop_item"
+                        android:textSize="@dimen/medium_size"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/font_semibold"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -189,6 +198,7 @@
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     android:text="@string/assurance"
                     android:textColor="@color/hint_colour"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -196,13 +206,13 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/textView11"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
                     android:fontFamily="@font/font_semibold"
-                    android:text="@string/mma"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
                     android:textColor="@color/medium_head"
                     android:textSize="@dimen/medium_size"
                     app:layout_constraintEnd_toEndOf="@+id/textView15"
@@ -214,21 +224,12 @@
                     android:id="@+id/imageView1"
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
+                    android:visibility="gone"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.9"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView15"
                     app:srcCompat="@drawable/down" />
-                <View
-                    android:id="@+id/view3"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_margin="@dimen/_10sdp"
-                    android:background="@color/view_color"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                   app:layout_constraintBottom_toBottomOf="parent" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -537,82 +538,97 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraint9"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_55sdp"
-                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/constraint8">
 
-                <TextView
-                    android:id="@+id/textiew1753"
-                    android:layout_width="wrap_content"
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/affaire_maritimes"
-                    android:textColor="@color/hint_colour"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.099"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <ImageView
-                    android:id="@+id/texView1853"
-                    android:layout_width="@dimen/_25sdp"
-                    android:layout_height="@dimen/_25sdp"
-                    android:src="@drawable/down"
-                    android:textColor="@color/medium_head"
-                    android:textSize="@dimen/medium_size"
-                    app:layout_constraintEnd_toStartOf="@+id/textView2053"
-                    app:layout_constraintHorizontal_bias="0.85"
+                    <TextView
+                        android:id="@+id/textiew1753"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="@string/affaire_maritimes"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/small_textsize"
+                        android:textColor="@color/hint_colour" />
+
+                    <TextView
+                        android:id="@+id/textView1953"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="@string/n_d_affili"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/small_textsize"
+                        android:textColor="@color/hint_colour" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textiew1753" />
+                    app:layout_constraintTop_toBottomOf="@id/linear3">
 
-                <View
-                    android:id="@+id/view11"
-                    android:layout_width="@dimen/_120sdp"
-                    android:layout_height="1dp"
-                    android:background="@color/view_color"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/view12"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent" />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/menu1"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_square"
+                        android:backgroundTint="@color/white"
+                        app:boxBackgroundColor="@null"
+                        app:counterTextColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.09"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView14">
 
-                <TextView
-                    android:id="@+id/textView1953"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/n_d_affili"
-                    android:textColor="@color/hint_colour"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.56"
-                    app:layout_constraintStart_toEndOf="@+id/textiew1753"
-                    app:layout_constraintTop_toTopOf="parent" />
+                        <AutoCompleteTextView
+                            android:id="@+id/drop_item1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/font_semibold"
+                            android:inputType="none"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_size" />
 
-                <TextView
-                    android:id="@+id/textView2053"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:fontFamily="@font/font_semibold"
-                    android:text="@string/xtez345zxcfxcc"
-                    android:textColor="@color/medium_head"
-                    android:textSize="@dimen/medium_size"
-                    app:layout_constraintEnd_toEndOf="@+id/textView1953"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/textView1953"
-                    app:layout_constraintTop_toBottomOf="@+id/textView1953" />
+                    </com.google.android.material.textfield.TextInputLayout>
 
-                <View
-                    android:id="@+id/view12"
-                    android:layout_width="@dimen/_120sdp"
-                    android:layout_height="1dp"
-                    android:background="@color/view_color"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@+id/view11" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/tetVie20"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/font_semibold"
+                        android:hint="@string/xtez345zxcfxcc"
+                        android:textColorHint="@color/medium_head"
+                        android:textSize="@dimen/medium_size" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -620,82 +636,99 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraint10"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_55sdp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_4sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/constraint9">
 
-                <TextView
-                    android:id="@+id/textiew1752"
-                    android:layout_width="wrap_content"
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/franchis_en_douanes"
-                    android:textColor="@color/hint_colour"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.099"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <ImageView
-                    android:id="@+id/texView1852"
-                    android:layout_width="@dimen/_25sdp"
-                    android:layout_height="@dimen/_25sdp"
-                    android:src="@drawable/down"
-                    android:textColor="@color/medium_head"
-                    android:textSize="@dimen/medium_size"
-                    app:layout_constraintEnd_toStartOf="@+id/textView2052"
-                    app:layout_constraintHorizontal_bias="0.85"
+                    <TextView
+                        android:id="@+id/textiew17531"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="Franchisé en douanes"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/small_textsize"
+                        android:textColor="@color/hint_colour" />
+
+                    <TextView
+                        android:id="@+id/textView19531"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="N° de douanes"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/small_textsize"
+                        android:textColor="@color/hint_colour" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textiew1752" />
+                    app:layout_constraintTop_toBottomOf="@id/linear4">
 
-                <View
-                    android:id="@+id/view13"
-                    android:layout_width="@dimen/_120sdp"
-                    android:layout_height="1dp"
-                    android:background="@color/hint_colour"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/view14"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent" />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/menu2"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_square"
+                        android:backgroundTint="@color/white"
+                        app:boxBackgroundColor="@null"
+                        app:counterTextColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.09"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView14">
 
-                <TextView
-                    android:id="@+id/textView1952"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/n_de_douanes"
-                    android:textColor="@color/hint_colour"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.56"
-                    app:layout_constraintStart_toEndOf="@+id/textiew1752"
-                    app:layout_constraintTop_toTopOf="parent" />
+                        <AutoCompleteTextView
+                            android:id="@+id/drop_item2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/font_semibold"
+                            android:inputType="none"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_size" />
 
-                <TextView
-                    android:id="@+id/textView2052"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:fontFamily="@font/font_semibold"
-                    android:text="@string/xnaoijflzf45zz"
-                    android:textColor="@color/medium_head"
-                    android:textSize="@dimen/medium_size"
-                    app:layout_constraintEnd_toEndOf="@+id/textView1952"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/textView1952"
-                    app:layout_constraintTop_toBottomOf="@+id/textView1952" />
+                    </com.google.android.material.textfield.TextInputLayout>
 
-                <View
-                    android:id="@+id/view14"
-                    android:layout_width="@dimen/_120sdp"
-                    android:layout_height="1dp"
-                    android:background="@color/view_color"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toEndOf="@+id/view13" />
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/tetVie201"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/font_semibold"
+                        android:hint="@string/xtez345zxcfxcc"
+                        android:textColorHint="@color/medium_head"
+                        android:textSize="@dimen/medium_size" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

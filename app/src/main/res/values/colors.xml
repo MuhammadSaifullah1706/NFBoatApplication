@@ -20,6 +20,8 @@
     <color name="port_color">#9FA5C0</color>
     <color name="result_dim">#ABABAB</color>
     <color name="bottom_color">#9FA5C0</color>
+    <color name="tranparent">#00FFFFFF</color>
+    <color name="bottom__sheet_textcolor">#FBFBFB</color>
 
 
     <!-- dots inactive colors -->

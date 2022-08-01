@@ -138,7 +138,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraint2"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_55sdp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -157,17 +157,33 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <androidx.appcompat.widget.AppCompatEditText
-                    android:id="@+id/imageView18"
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/menu"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_marginEnd="@dimen/_20sdp"
+                    android:backgroundTint="@color/white"
+                    android:background="@drawable/white_square"
+                    app:boxBackgroundColor="@null"
+                    app:counterTextColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.9"
+                    app:layout_constraintHorizontal_bias="0.09"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView14"
-                    android:drawableEnd="@drawable/down" />
+                    app:layout_constraintTop_toBottomOf="@id/textView14">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/drop_item"
+                        android:textSize="@dimen/medium_size"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/font_semibold"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
 
 
 
@@ -501,7 +517,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraint9"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_55sdp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -548,33 +564,49 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_20sdp"
                     android:layout_marginEnd="@dimen/_20sdp"
-                    app:layout_constraintTop_toBottomOf="@id/linear3"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:orientation="horizontal"
                     android:weightSum="2"
-                    >
-                    <androidx.appcompat.widget.AppCompatEditText
-                        android:id="@+id/txVie18"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/linear3">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/menu1"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:drawableEnd="@drawable/down"
-                        android:fontFamily="@font/font_semibold"
-                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_height="60dp"
                         android:layout_weight="1"
-                        android:textColorHint="@color/medium_head"
-                        android:textSize="@dimen/medium_size"
-                        />
+                        android:background="@drawable/white_square"
+                        android:backgroundTint="@color/white"
+                        app:boxBackgroundColor="@null"
+                        app:counterTextColor="@color/black"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.09"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView14">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/drop_item1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/font_semibold"
+                            android:inputType="none"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_size" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
                     <androidx.appcompat.widget.AppCompatEditText
                         android:id="@+id/tetVie20"
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
                         android:fontFamily="@font/font_semibold"
                         android:hint="@string/xtez345zxcfxcc"
                         android:textColorHint="@color/medium_head"
-                        android:textSize="@dimen/medium_size"
-                        android:layout_weight="1"
-                        />
+                        android:textSize="@dimen/medium_size" />
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -610,7 +642,7 @@
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/font_semibold"
                     android:gravity="center"
-                    android:text="Vieux-Port de Cannes"
+                    android:text="Photo du bateau"
                     android:textColor="@color/black"
                     android:textSize="@dimen/small_textsize"
                     app:layout_constraintEnd_toEndOf="@+id/imageView36"
